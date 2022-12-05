@@ -17,8 +17,13 @@ public class ProductController {
         return "welcome to add products";
     }
 
-    @GetMapping("/add")
+    @GetMapping("/view")
     public String viewproduct(){
         return "welcome to view products";
+    }
+
+    @PostMapping("/search")
+    public String searchproduct(){
+        return "welcome to search products";
     }
 }
