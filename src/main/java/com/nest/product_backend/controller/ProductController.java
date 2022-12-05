@@ -31,4 +31,9 @@ public class ProductController {
     public String editproduct(){
         return "welcome to edit products";
     }
+
+    @PostMapping("/delete")
+    public String deleteproduct(){
+        return "welcome to delete products";
+    }
 }
